@@ -1,0 +1,30 @@
+.nav {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    z-index: 50;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    z-index: 50;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo {
+    font-weight: bolder;
+    z-index: 100;
+}
+
+.log-sign {
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+}

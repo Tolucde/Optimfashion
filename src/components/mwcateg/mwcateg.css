@@ -1,0 +1,45 @@
+.mwc1 {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mwc2 {
+  height: 130px;
+  width: 32%;
+  position: relative;
+  cursor: pointer;
+}
+
+.mwc2 > a > img {
+  width: 100%;
+  /* object-fit: contain; */
+  height: 100%;
+}
+
+.mwc3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 5px;
+  width: fit-content;
+  backdrop-filter: blur(9px);
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.637);
+}
+
+.mwc2:hover .mwc3 {
+  transform: translate(-100%, -50%);
+  position: absolute;
+  left: 100%;
+  transition: ease 0.4s;
+}
+
+@media only screen and (max-width: 700px) {
+  .mwc1 {
+    width: 100%;
+  }
+}

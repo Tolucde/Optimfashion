@@ -1,0 +1,186 @@
+.cart1 {
+    margin-top: -45px;
+    z-index: 50;
+}
+
+.cart-section {
+    background-color: #f8b0b3;
+    transition: all linear 0.5s;
+    color: black;
+    display: flex;
+    height: fit-content;
+}
+
+.cart-innerCont>h4 {
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.cart-head {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.button__container {
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* border: solid 1px rgb(216, 23, 23);
+    background: #f8b0b3; */
+
+.cart-cont {
+    background-color: #f8b0b3;
+    z-index: 10;
+    width: 100vw;
+    padding: 10px 0 50px 0;
+    height: fit-content;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 50px 5px 30px 5px;
+    margin: 0 auto;
+}
+
+.total {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.back-shop {
+    flex: 1;
+}
+
+.back-shop>a {
+    color: #f8b0b3;
+    border: solid 1px #3a1b1d;
+    padding: 4px;
+    border-radius: 3px;
+    transition: all linear 0.4s;
+    background-color: #3a1b1d;
+    text-decoration: none;
+}
+
+.back-shop>a:hover {
+    background-color: transparent;
+    color: #3a1b1d;
+    transition: all linear 0.4s;
+}
+
+.fa-times-circle {
+    color: gray;
+    transition: transform 0.2s linear;
+}
+
+.fa-times-circle:hover {
+    transform: rotate(90deg);
+}
+
+.checkout-section {
+    width: 30%;
+    background-color: #3a1b1d;
+    color: #f8b0b3;
+    padding: 65px 40px 5px 0;
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+    position: relative;
+    height: 90vh;
+}
+
+.select-card {
+    padding-top: 40px;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+.checkout-section>p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+.select-card>p {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+.group2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    border: solid 1px #f8b0b3;
+    border-top: none;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 0.5rem;
+    padding-top: 8px;
+    border-left: none;
+    border-right: none;
+    background-color: #3a1b1d;
+    outline: none;
+}
+
+.g1 {
+    width: 70%;
+}
+
+.g2 {
+    width: 20%;
+    min-width: 35px;
+}
+
+.check-out-text {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    background-color: rgb(255, 178, 13);
+    color: #3a1b1d;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.check-out-text:hover {
+    background-color: rgba(255, 178, 13, 0.767);
+}

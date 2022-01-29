@@ -1,0 +1,37 @@
+.categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.categories-h4 {
+    color: inherit;
+    border: solid 1px rgb(216, 23, 23);
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: rgb(216, 23, 23);
+    width: 100px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.categories-h4:hover {
+    color: rgb(216, 23, 23);
+    border: solid 1px rgb(216, 23, 23);
+    opacity: 1;
+}
+
+.categories>a {
+    color: white;
+}
+
+.categories>h1 {
+    font-size: 60px;
+}
+
+@media (max-width: 600px) {
+    .categories>h1 {
+        font-size: 25px;
+    }
+}
